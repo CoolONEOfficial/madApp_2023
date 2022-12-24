@@ -13,11 +13,11 @@ struct TaskCell: View {
     var borderColor: Color {
         switch task.status.title {
         case .new:
-            return .green
+            return .init(uiColor: UIColor(red: 1, green: 0.812, blue: 0.525, alpha: 1))
         case .finished:
-            return .green
+            return .init(uiColor: UIColor(red: 0.45, green: 0.683, blue: 0.563, alpha: 1))
         case .progress:
-            return .yellow
+            return .init(uiColor: UIColor(red: 0.971, green: 0.291, blue: 0.291, alpha: 1))
         }
     }
     
