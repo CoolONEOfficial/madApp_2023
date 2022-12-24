@@ -14,6 +14,17 @@
 		56E8ADC629573CFE0070A6BD /* madAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADC529573CFE0070A6BD /* madAppTests.swift */; };
 		56E8ADD029573CFE0070A6BD /* madAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADCF29573CFE0070A6BD /* madAppUITests.swift */; };
 		56E8ADD229573CFE0070A6BD /* madAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADD129573CFE0070A6BD /* madAppUITestsLaunchTests.swift */; };
+		56E8ADDF2957468C0070A6BD /* PreviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADDE2957468C0070A6BD /* PreviewScreen.swift */; };
+		56E8ADE1295746DF0070A6BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADE0295746DF0070A6BD /* Constants.swift */; };
+		56E8ADEE29574AC10070A6BD /* PlusJakartaText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56E8ADED29574AB60070A6BD /* PlusJakartaText-Light.otf */; };
+		56E8ADEF29574AC10070A6BD /* PlusJakartaText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56E8ADEB29574AB60070A6BD /* PlusJakartaText-Regular.otf */; };
+		56E8ADF029574AC10070A6BD /* PlusJakartaText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56E8ADEC29574AB60070A6BD /* PlusJakartaText-Bold.otf */; };
+		56E8ADF329574BD60070A6BD /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADF229574BD60070A6BD /* MainScreen.swift */; };
+		56E8ADF529574BE30070A6BD /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADF429574BE30070A6BD /* LoginScreen.swift */; };
+		56E8ADF829574CC10070A6BD /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADF729574CC10070A6BD /* InputField.swift */; };
+		56E8ADFA29574F280070A6BD /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADF929574F280070A6BD /* Button.swift */; };
+		56E8ADFD295754AD0070A6BD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADFC295754AD0070A6BD /* NetworkService.swift */; };
+		56E8ADFF295759370070A6BD /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8ADFE295759370070A6BD /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		56E8ADCB29573CFE0070A6BD /* madAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E8ADCF29573CFE0070A6BD /* madAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madAppUITests.swift; sourceTree = "<group>"; };
 		56E8ADD129573CFE0070A6BD /* madAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56E8ADDE2957468C0070A6BD /* PreviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewScreen.swift; sourceTree = "<group>"; };
+		56E8ADE0295746DF0070A6BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56E8ADEA29574A2B0070A6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		56E8ADEB29574AB60070A6BD /* PlusJakartaText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaText-Regular.otf"; sourceTree = "<group>"; };
+		56E8ADEC29574AB60070A6BD /* PlusJakartaText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaText-Bold.otf"; sourceTree = "<group>"; };
+		56E8ADED29574AB60070A6BD /* PlusJakartaText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaText-Light.otf"; sourceTree = "<group>"; };
+		56E8ADF229574BD60070A6BD /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		56E8ADF429574BE30070A6BD /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		56E8ADF729574CC10070A6BD /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		56E8ADF929574F280070A6BD /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		56E8ADFC295754AD0070A6BD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		56E8ADFE295759370070A6BD /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +117,18 @@
 		56E8ADB329573CFC0070A6BD /* madApp */ = {
 			isa = PBXGroup;
 			children = (
+				56E8ADFB2957549C0070A6BD /* Services */,
+				56E8ADF629574CB40070A6BD /* Components */,
+				56E8ADF129574ACF0070A6BD /* Screens */,
+				56E8ADEA29574A2B0070A6BD /* Info.plist */,
+				56E8ADEC29574AB60070A6BD /* PlusJakartaText-Bold.otf */,
+				56E8ADED29574AB60070A6BD /* PlusJakartaText-Light.otf */,
+				56E8ADEB29574AB60070A6BD /* PlusJakartaText-Regular.otf */,
 				56E8ADB429573CFC0070A6BD /* madAppApp.swift */,
 				56E8ADB629573CFC0070A6BD /* ContentView.swift */,
 				56E8ADB829573CFE0070A6BD /* Assets.xcassets */,
 				56E8ADBA29573CFE0070A6BD /* Preview Content */,
+				56E8ADE0295746DF0070A6BD /* Constants.swift */,
 			);
 			path = madApp;
 			sourceTree = "<group>";
@@ -125,6 +156,34 @@
 				56E8ADD129573CFE0070A6BD /* madAppUITestsLaunchTests.swift */,
 			);
 			path = madAppUITests;
+			sourceTree = "<group>";
+		};
+		56E8ADF129574ACF0070A6BD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				56E8ADDE2957468C0070A6BD /* PreviewScreen.swift */,
+				56E8ADF229574BD60070A6BD /* MainScreen.swift */,
+				56E8ADF429574BE30070A6BD /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		56E8ADF629574CB40070A6BD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				56E8ADF729574CC10070A6BD /* InputField.swift */,
+				56E8ADF929574F280070A6BD /* Button.swift */,
+				56E8ADFE295759370070A6BD /* TaskCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		56E8ADFB2957549C0070A6BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				56E8ADFC295754AD0070A6BD /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E8ADF029574AC10070A6BD /* PlusJakartaText-Bold.otf in Resources */,
+				56E8ADEF29574AC10070A6BD /* PlusJakartaText-Regular.otf in Resources */,
 				56E8ADBC29573CFE0070A6BD /* Preview Assets.xcassets in Resources */,
 				56E8ADB929573CFE0070A6BD /* Assets.xcassets in Resources */,
+				56E8ADEE29574AC10070A6BD /* PlusJakartaText-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +321,14 @@
 			files = (
 				56E8ADB729573CFC0070A6BD /* ContentView.swift in Sources */,
 				56E8ADB529573CFC0070A6BD /* madAppApp.swift in Sources */,
+				56E8ADF329574BD60070A6BD /* MainScreen.swift in Sources */,
+				56E8ADFA29574F280070A6BD /* Button.swift in Sources */,
+				56E8ADFF295759370070A6BD /* TaskCell.swift in Sources */,
+				56E8ADFD295754AD0070A6BD /* NetworkService.swift in Sources */,
+				56E8ADF829574CC10070A6BD /* InputField.swift in Sources */,
+				56E8ADDF2957468C0070A6BD /* PreviewScreen.swift in Sources */,
+				56E8ADE1295746DF0070A6BD /* Constants.swift in Sources */,
+				56E8ADF529574BE30070A6BD /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +489,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"madApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = madApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +518,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"madApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = madApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

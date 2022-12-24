@@ -7,15 +7,39 @@
 
 import SwiftUI
 
+enum Screen {
+    case login
+    case start
+    case main
+}
+
 struct ContentView: View {
+    @State var screen: Screen = .start
+    
+    @AppStorage("key") var key: String?
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        switch screen {
+        case .login:
+            LoginScreen(successLogin: successLogin)
+        case .start:
+            PreviewScreen(animationEnded: previewAnimationEnded)
+        case .main:
+            MainScreen()
         }
-        .padding()
+    }
+    
+    func previewAnimationEnded() {
+        if let key = key {
+            screen = .main
+        } else {
+            screen = .login
+        }
+    }
+    
+    func successLogin() {
+        let test = key
+        screen = .main
     }
 }
 
