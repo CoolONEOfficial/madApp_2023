@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "App logo with background.jpg",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
